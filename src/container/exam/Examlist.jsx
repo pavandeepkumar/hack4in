@@ -60,6 +60,36 @@ const Examlist = () => {
             <button style={buttonStyle}>Delete</button>
           </td>
         </tr>
+        <tr>
+          <td style={tdStyle}>Physics</td>
+          <td style={tdStyle}>This is a physics exam</td>
+          <td style={tdStyle}>19/09/2023</td>
+          <td style={tdStyle}>medium</td>
+          <td style={tdStyle}>
+            <button  style={buttonStyle}>Edit</button>
+            <button style={buttonStyle}>Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td style={tdStyle}>Physics</td>
+          <td style={tdStyle}>This is a physics exam</td>
+          <td style={tdStyle}>19/09/2023</td>
+          <td style={tdStyle}>medium</td>
+          <td style={tdStyle}>
+            <button  style={buttonStyle}>Edit</button>
+            <button style={buttonStyle}>Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td style={tdStyle}>Physics</td>
+          <td style={tdStyle}>This is a physics exam</td>
+          <td style={tdStyle}>19/09/2023</td>
+          <td style={tdStyle}>medium</td>
+          <td style={tdStyle}>
+            <button  style={buttonStyle}>Edit</button>
+            <button style={buttonStyle}>Delete</button>
+          </td>
+        </tr>
         {/* Add more rows here if needed */}
       </tbody>
     </table>

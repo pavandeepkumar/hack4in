@@ -5,7 +5,7 @@ import Students from './container/students/Students'
 import Registation from './container/user/register/Registation'
 import Teacher from './container/teacher/Teacher'
 import Admin from './container/admin/Admin'
-import Examlist from './container/exam/Examlist'
+import Examlist from './container/exam/examlist'
 
 
 function App() {
