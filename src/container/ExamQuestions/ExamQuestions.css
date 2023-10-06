@@ -1,0 +1,42 @@
+.container{
+    font-size: 20px;
+    width: 50vw;
+     margin-top: 30px;
+     border-radius: 10px;
+     box-shadow:  0 0 5px rgb(125, 101, 101);
+     padding: 10px 0 0 10px;
+     
+ }
+ .container p{
+     margin-left: 15px;
+ }
+ .container ul li {
+     margin-left:20px ;
+     list-style: none;
+    
+ }
+ .options{
+     margin-left: 30px;
+     
+ }
+ .Options1{
+     font-size: .8rem;
+ }
+ .button{
+     position: relative;
+     left: 60%;
+     top: 50%;
+     margin-left: 30px;
+     border: none;
+     background-color: rgb(93, 93, 201);
+     color: white;
+     border-radius: 8px;
+     margin-bottom: 30px;
+     letter-spacing: 2px;
+     font-size: .9rem;
+     line-height: 30px;
+     transition: .4s;
+ }
+ .button:hover{
+     box-shadow: 0 0 5px rgb(72, 72, 169) ;
+ }
