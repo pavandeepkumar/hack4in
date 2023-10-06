@@ -20,14 +20,6 @@ const Examlist = () => {
     textAlign: "left",
   };
 
-  const buttonStyle = {
-    padding: "5px 10px",
-    background: "#007bff",
-    color: "#fff",
-    border: "none",
-    cursor: "pointer",
-  };
-
   return (
     <table style={tableStyle}>
       <thead>
@@ -36,7 +28,7 @@ const Examlist = () => {
           <th style={thStyle}>Exam Description</th>
           <th style={thStyle}>Exam Creation Date</th>
           <th style={thStyle}>Exam Level</th>
-          <th style={thStyle}>Options</th>
+          <th style={thStyle}>Optation</th>
         </tr>
       </thead>
       <tbody>
@@ -45,20 +37,25 @@ const Examlist = () => {
           <td style={tdStyle}>This is a maths exam</td>
           <td style={tdStyle}>19/09/2023</td>
           <td style={tdStyle}>easy</td>
-          <td style={tdStyle}>
-            <button style={buttonStyle}>Edit</button>
-            <button style={buttonStyle}>Delete</button>
-          </td>
+          <td style={tdStyle}>Butt</td>
         </tr>
         <tr>
           <td style={tdStyle}>Physics</td>
-          <td style={tdStyle}>This is a physics exam</td>
+          <td style={tdStyle}>This is a maths exam</td>
           <td style={tdStyle}>19/09/2023</td>
-          <td style={tdStyle}>medium</td>
-          <td style={tdStyle}>
-            <button  style={buttonStyle}>Edit</button>
-            <button style={buttonStyle}>Delete</button>
-          </td>
+          <td style={tdStyle}>easy</td>
+        </tr>
+        <tr>
+          <td style={tdStyle}>Biology</td>
+          <td style={tdStyle}>This is a maths exam</td>
+          <td style={tdStyle}>19/09/2023</td>
+          <td style={tdStyle}>easy</td>
+        </tr>
+        <tr>
+          <td style={tdStyle}>Sanskrite</td>
+          <td style={tdStyle}>This is a maths exam</td>
+          <td style={tdStyle}>19/09/2023</td>
+          <td style={tdStyle}>easy</td>
         </tr>
         {/* Add more rows here if needed */}
       </tbody>
