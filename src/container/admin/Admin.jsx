@@ -1,8 +1,11 @@
 import React from 'react'
+import ExamQuestions from './ExamQuestions/ExamQuestion'
 
 const Admin = () => {
   return (
-    <div>Admin</div>
+    <div className=''>
+      <ExamQuestions />
+    </div>
   )
 }
 

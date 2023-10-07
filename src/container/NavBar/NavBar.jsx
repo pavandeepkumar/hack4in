@@ -4,7 +4,7 @@ import image from '../../../public/favicon.png'
 
 const Navbar = () => {
     return (
-        <nav className="bg-blue-500 h-16 flex justify-between items-center px-4 fixed w-screen">
+        <nav className="bg-blue-500 h-16 flex justify-between items-center px-8 fixed w-screen z-50">
             <div className="text-white text-lg font-semibold rounded-full">
                 <Link to="/"><img className='rounded-full h-15' src={image} alt="this is logo of aditya silver oak university" height={50} width={50} /></Link>
             </div>
@@ -19,12 +19,12 @@ const Navbar = () => {
 
                 <div className='flex justify-end'>
                     <li>
-                        <Link to="/register" className="text-white hover:text-gray-300 bg-blue-400 p-3">
+                        <Link to="/register" className="text-white hover:text-gray-300 bg-green-400 p-3 rounded-xl font-extrabold">
                             Sign Up
                         </Link>
                     </li>
                     <li>
-                        <Link to="/" className="text-white hover:text-gray-300 bg-blue-400 p-3 ">
+                        <Link to="/" className="text-white hover:text-gray-300 bg-green-400 p-3  rounded-xl font-extrabold">
                             Login
                         </Link>
                     </li>
