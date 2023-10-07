@@ -1,0 +1,46 @@
+/* / App.css / */
+
+.form_container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  background-color: #fff;
+  height: 100%;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.ant-form-item-label {
+  font-weight: bold;
+}
+
+.ant-input,
+.ant-select {
+  width: 100%;
+}
+.ant-form {
+  margin: 50px 0;
+}
+
+.ant-form-item-control-input-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-btn {
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .form_container {
+    max-width: 100%;
+  }
+}

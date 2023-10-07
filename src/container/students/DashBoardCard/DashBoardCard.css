@@ -1,0 +1,9 @@
+.ExamCard{
+    transition: .4s;
+    font-size: 0.8rem;
+}
+
+
+.ExamCard:hover{
+    box-shadow: 1px 1px 6px black;
+}

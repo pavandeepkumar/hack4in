@@ -13,10 +13,11 @@
   flex-direction: column;
   gap: 10px;
   max-width: 350px;
-  /* background-color: rgb(230, 226, 236); */
+  background-color: rgb(230, 226, 236);
   padding: 20px;
   border-radius: 20px;
   position: relative;
+  margin: 20px;
 }
 
 .title {

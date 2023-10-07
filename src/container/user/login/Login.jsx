@@ -16,7 +16,7 @@ function RegistrationForm() {
         e.preventDefault();
         // Add your form submission logic here
         // You can access the form values in the state variables (firstName, lastName, etc.)
-        navigate('/admin');
+        navigate('/students');
 
     };
 
